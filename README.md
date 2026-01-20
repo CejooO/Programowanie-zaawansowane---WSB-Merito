@@ -27,5 +27,5 @@ Klient realizuje następujący scenariusz:
 3.  Pętla zapytań: Kilkukrotnie prosi o kolekcje obiektów konkretnych klas.
 4.  Przetwarzanie danych:
     Odbiera zserializowaną kolekcję.
-    Używa **Java Stream API (`.stream().forEach()`) do wypisania obiektów na konsoli wraz ze swoim ID.
+    Używa Java Stream API (`.stream().forEach()`) do wypisania obiektów na konsoli wraz ze swoim ID.
 5.  Obsługa błędów rzutowania: Zawiera blok `try-catch` dla `ClassCastException`, aby poprawnie obsłużyć sytuację, w której serwer przesyła obiekt innego typu niż oczekiwana kolekcja.
